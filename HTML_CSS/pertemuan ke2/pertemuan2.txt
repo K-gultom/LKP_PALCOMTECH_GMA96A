@@ -1,0 +1,15 @@
+1. Menambahkan Gambar Pada Website secara lokal dan Link
+2. Insert Audio Secara lokal dan link
+3. Insert Video secara lokal dan link
+
+
+video
+
+Nama Atribut		Nilai		Fungsi
+1. autoplay		true/false	Agar video diputar otomatis
+2. controls		true/false	Untuk mengaktifkan control video player
+3. loop			true/false	Untuk memutar video terus menerus
+4. muted		true/false	Untuk menonaktifkan audio
+5. poster		Image Path	Untuk menentukan gambar cover dari video
+6. width & height	angka		Untuk menentukan tinggi dan lebar video
+7. playsinline		true/false	Untuk memutar video secara ‘inline’

@@ -1,0 +1,19 @@
+Tabel
+
+ada Row(Baris) dan Column(kolom)
+
+caption untuk memberikan judul pada tabel
+align="..."
+=> left		Judul berada disisi kiri tabel
+   right	Judul berada disisi kanan tabel
+   top		Judul berada diatas tabel (default)
+   bottom	Judul berada dibawah tabel
+
+property pada tabel:
+border
+width
+cellpadding
+cellspacing
+
+colspan
+rowspan
