@@ -1,0 +1,4 @@
+# LKP_PALCOMTECH_GMA96A
+Coppy Secukupnya Saja yaa ...
+
+WARNING!!! JANGAN FULL COPY SEMUANYA
