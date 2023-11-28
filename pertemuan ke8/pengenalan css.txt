@@ -1,0 +1,154 @@
+Selector 	    Declaration 
+  h1     {color:    blue;  font-size:  12px;}
+         Property   Value  Property    Value
+
+
+External CSS -> in the head section
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+Internal CSS -> in the head section
+gunakan tag <style> </style>
+
+Inline CSS -> inside an HTML element
+
+
+/* This is a single-line comment */
+
+****** color  ******
+
+Color normal
+<h1 style="color:Tomato;">Hello World</h1>
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+
+color RGB
+rgb(red, green, blue)
+rgba(red, green, blue, alpha) 0.0 - 1.0
+alpha -> untuk transparant
+semakin besar alpha semakin transparant
+
+color HEX
+#ffffff
+
+
+****** BACKGROUND *******
+
+background-color: 
+opacity: 
+0.0 - 1.0 semakin kecil angka semakin pudar
+
+atau
+
+pakai 
+backround: rgba(red, green, blue, alpha)
+
+backround-image: url("namafile")
+
+--- backgroundRepeat
+	background-image: url("img_tree.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+
+background-attachment: fixed;
+background-attachment: scroll;
+
+****** Margin *******
+Property margin ada 4
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+margin: 25px 50px 75px 100px;
+	top margin is 25px
+	right margin is 50px
+	bottom margin is 75px
+	left margin is 100px
+
+margin: 25px 50px 75px;
+	top margin is 25px
+	right and left margins are 50px
+	bottom margin is 75px
+
+margin: 25px 50px;
+	top and bottom margins are 25px
+	right and left margins are 50px
+
+
+****** Padding ******
+Property Padding ada 4 
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+padding: 25px 50px 75px 100px;
+	top padding is 25px
+	right padding is 50px
+	bottom padding is 75px
+	left padding is 100px
+
+padding: 25px 50px 75px;
+	top padding is 25px
+	right and left paddings are 50px
+	bottom padding is 75px
+
+padding: 25px 50px;
+	top and bottom paddings are 25px
+	right and left paddings are 50px
+
+
+***** Box Model *****
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+***** TUGAS SEDERHANA ******
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
+
+

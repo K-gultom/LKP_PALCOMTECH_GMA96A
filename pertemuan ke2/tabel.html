@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel</title>
+</head>
+<body>
+    <table border="1">
+        <caption>Judul Tabel Menggunakan Caption</caption>
+        <tr>
+            <th> Header 1</th>
+            <th> Header 2</th>
+            <th> Header 3</th>
+        </tr>
+        <tr>
+            <td>Baris 1, Kolom 1</td>
+            <td>Baris 1, Kolom 2</td>
+            <td>Baris 1, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 2, Kolom 2</td>
+            <td>Baris 2, Kolom 1</td>
+            <td>Baris 2, Kolom 3</td>
+        </tr>
+    </table>
+
+
+    <br><br>
+    <table border="1" width="%" cellpadding="10" cellspacing="5">
+        <caption>Tabel Format</caption>
+        <thead width="">
+            <tr height="">
+                <th width="">Judul 1</th>
+                <th width="">Judul 2</th>
+                <th width="">Judul 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Baris 1, Kolom 1</td>
+                <td>Baris 1, Kolom 2</td>
+                <td>Baris 1, Kolom 3</td>
+            </tr>
+            <tr>
+                <td>Baris 2, Kolom 1</td>
+                <td>Baris 2, Kolom 2</td>
+                <td>Baris 2, Kolom 3</td>
+            </tr>
+            <tr>
+                <td>Baris 3, Kolom 1</td>
+                <td>Baris 3, Kolom 2</td>
+                <td>Baris 3, Kolom 3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Footer 1</td>
+                <td>Footer 2</td>
+                <td>Footer 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><br>
+    <table border="1" cellpadding="10" cellspacing="5">
+        <caption>Tabel Colspan dan Rowspan</caption>
+        <thead>
+            <tr>
+                <th>Judul 1</th>
+                <th>Judul 2</th>
+                <th>Judul 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Baris 1, Kolom 1</td>
+                <td>Baris 1, Kolom 2</td>
+                <td>Baris 1, Kolom 3</td>
+            </tr>
+            <tr>
+                <!-- <td>Baris 2, Kolom 1</td> -->
+                <td colspan="2">Baris 2, Kolom 2</td>
+                <!-- <td>Baris 2, Kolom 3</td> -->
+            </tr>
+            <tr>
+                <td>Baris 3, Kolom 1</td>
+                <td>Baris 3, Kolom 2</td>
+                <td>Baris 3, Kolom 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br><br>
+    <table border="1" cellpadding="10" cellspacing="5">
+        <caption>Tugas 1</caption>
+        <thead>
+            <tr>
+                <th colspan="4">Jadwal Pelajaran</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Info</td>
+                <td>Hari</td>
+                <td>Jam Masuk</td>
+                <td>Mata Pelajaran</td>
+            </tr>
+            <tr>
+                <td>Senin</td>
+                <td>7:00 WIB</td>
+                <td>Matematika</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

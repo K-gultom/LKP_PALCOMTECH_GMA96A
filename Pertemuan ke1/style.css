@@ -1,0 +1,10 @@
+*{
+    /* background-color: aqua; */
+}
+
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    color: blue;
+}

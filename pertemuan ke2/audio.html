@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+<body>
+    <a class="link" href="index.html"> Halaman Index</a> <br> <br>
+    <a class="link" href="list.html"> Halaman List</a> <br> <br>
+    <a class="link" href="modifikasi_font.html"> Halaman Font</a> <br> <br>
+    <a class="link" href="hyperlink.html"> Halaman Hyperlink</a> <br> <br>
+    <a class="link" href="link_gambar.html">Halaman Link Gambar</a><br><br>
+    <a class="link" href="video_lokal.html">Halaman Video Lokal</a><br><br>
+    <a class="link" href="video_link.html">Halaman Video Link</a><br><br>
+
+    <h1>Ini Halaman Audio</h1>
+
+    <!-- Property dalam Audio
+        autoplay
+        controls
+        loop
+    -->
+
+    <h1>Audio Dari Lokal</h1>
+    <audio src="../pertemuan ke2/assets/audios/Ibu_Guru_Kami.mp3" autoplay controls></audio>
+
+<br><br>
+
+    <audio controls>
+        <source src="../pertemuan ke2/assets/audios/Ibu_Guru_Kami.mp3" type="audio/mpeg">
+        <source src="../pertemuan ke2/assets/audios/Ibu_Guru_Kami.mp3" type="audio/ogg">
+        <source src="../pertemuan ke2/assets/audios/Ibu_Guru_Kami.mp3" type="audio/wav">
+        Gagal memutar lagu
+    </audio>
+
+<br><br>
+    <h1>Audio Dari Link</h1>
+    <audio controls>
+        <source src="https://github.com/petanikode/belajar-html/raw/master/audio/Ngoni.mp3" type="audio/mpeg">
+        Browsermu tidak mendukung tag audio, upgrade donk!
+    </audio>
+</body>
+</html>

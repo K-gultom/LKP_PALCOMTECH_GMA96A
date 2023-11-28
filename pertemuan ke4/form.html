@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <style>
+       .btn-sub{
+        width: 100px;
+        height: 30px;
+        background-color: #0011ff;
+        border-radius: 25px;
+        border: none;
+       } 
+       .btn-sub a{
+        color: #ffff;
+        text-decoration: none;
+       }
+       .btn-sub:hover{
+        background-color: #ff00a6;
+       }
+    </style>
+
+
+    <button class="btn-sub" type="submit"><a href="test.html">Pendaftaran</a></button>
+    <h3>Halaman Inputan</h3>
+
+    <form action="">
+            <br>
+        <p>input teks</p>
+        <label for="">Nama</label>
+        <input type="text" placeholder="Tuliskan Nama Anda...">
+        <!-- Komponen Placeholder -->
+        <br><br>
+
+        <p>input email</p>
+        <input type="email" placeholder="Type your email...">
+        <br><br>
+
+        <p>input number</p>
+        <input type="number" placeholder="Type your phone...">
+        <br><br>
+
+        <p>input radio</p>
+        <input type="radio"> Laki-Laki
+        <input type="radio"> Perempuan
+        <br><br>
+
+        <p>input radio</p>
+        <input type="radio" name="jenis_kelamin"> Laki-Laki
+        <input type="radio" name="jenis_kelamin"> Perempuan
+        <br><br>
+
+        <p>Input Check Box</p>
+        <input type="checkbox" name="makanan"> Mie
+        <input type="checkbox" name="makanan"> Bakso
+        <input type="checkbox" name="makanan"> Model
+        <br><br>
+
+        <p>input date</p>
+        <input type="date">
+        <br><br>
+
+        <p>input time</p>
+        <input type="time">
+        <br><br>
+
+        <p>input dropdown</p>
+        <select name="" id="">
+            <option value="" hidden>Pilih Asal Kota</option>
+            <option value="">Palembang</option>
+            <option value="">Bandung</option>
+            <option value="">Medan</option>
+            <option value="">Semarang</option>
+            <option value="">Yokyakarta</option>
+            <option value="">Surabaya</option>
+            <option value="">Papua</option>
+        </select>
+        <br><br>
+        <p>input text area</p>
+        <textarea name="" id="" cols="50" rows="5" placeholder="Tuliskan disini..."></textarea>
+    <br><br>
+    <button type="submit">Kirim</button>
+    <button type="reset">Batal</button>        
+    </form>
+
+</body>
+</html>
